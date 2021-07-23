@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LocadoraOscar.API</name>
+    </assembly>
+    <members>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.GetAsync">
+            <summary>
+            Método responsável por retornar todos os filmes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.GetAsync(System.Int32)">
+            <summary>
+            Método responsável por retornar o filme com Id informado.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.PostAsync(LocadoraOscar.API.DTO.FilmeRegistroDTO)">
+            <summary>
+            Método responsável por adicionar um novo filme.
+            </summary>
+            <param name="filmeNovo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.PutAsync(System.Int32,LocadoraOscar.API.DTO.FilmeEdicaoDTO)">
+            <summary>
+            Método responsável por alterar um filme cadastrado.
+            </summary>
+            <param name="id"></param>
+            <param name="filmeEditado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.DeleteAsync(System.Int32)">
+            <summary>
+            Método responsável por apagar o registro de um filme de acordo com o Id passado.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LocadoraOscar.API.Controllers.FilmeController.DeleteAsync(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Método responsável por apagar o registro de vários filmes de acordo com o Id passado.
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LocadoraOscar.API.DTO.FilmeDTO">
+            <summary>
+            DTO utilizado para exibir somente o necessário para o usuário.
+            </summary>
+        </member>
+        <member name="T:LocadoraOscar.API.DTO.FilmeEdicaoDTO">
+            <summary>
+            DTO utilizado para realizar a edição de um filme.
+            </summary>
+        </member>
+        <member name="T:LocadoraOscar.API.DTO.FilmeRegistroDTO">
+            <summary>
+            DTO utilizado para realizar o cadastro de um novo filme.
+            </summary>
+        </member>
+        <member name="T:LocadoraOscar.API.DTO.GeneroDTO">
+            <summary>
+            DTO utilizado para que apareça para o usuário apenas as informações relevantes sobre o genero de um determinado filme.
+            </summary>
+        </member>
+    </members>
+</doc>
